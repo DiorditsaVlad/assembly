@@ -1,0 +1,41 @@
+.container {
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 575.98px){
+    .container {
+      max-width: 540px;
+      margin: auto;
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 767.98px){
+    .container {
+      max-width: 720px;	
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1199.98px){
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  ul,h1,h2,p {
+    margin: 0;
+    list-style: none;
+  }
+  .link{
+    text-decoration: none;
+    color: inherit;
+  }

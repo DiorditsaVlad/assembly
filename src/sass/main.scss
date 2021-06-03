@@ -1,7 +1,13 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './variables';
+@import './general';
+@import './logo';
+@import './btn';
+@import './header';
+@import './section-hero-header';
+@import './section-about';
+@import './section-features';
+@import './section-requirement';
+@import './section-qoutes';
+@import './section-newsletter';
+@import './footer';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
